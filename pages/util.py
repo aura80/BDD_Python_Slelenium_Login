@@ -4,12 +4,13 @@ import re
 
 class AddCart:
     # URL
-    URL = "https://www.reserved.com/ro/ro/5215g-80x/buty-rekreacyjne-k-2vpn-re"
+    
+    URL = "https://www.reserved.com/ro/ro/balerini-cu-funda-7439l-30x"
 
     ACCEPT_COOKIES_BUTTON = (By.ID, 'cookiebotDialogOkButton')
     ADD_CART = (By.CSS_SELECTOR, '.add-to-cart-text')
     NEXT_CLICK = (By.CSS_SELECTOR, '.control__ControlComponent-sc-1abuwne-0.ffTJtx.control.right-control')
-    COLOR_CLICK = (By.CSS_SELECTOR, 'button[value="5215G-80X"]')
+    COLOR_CLICK = (By.CSS_SELECTOR, 'button[value="7439L-30X"]')
 
 
     def __init__(self, browser):
