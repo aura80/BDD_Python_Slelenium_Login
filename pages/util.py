@@ -4,7 +4,7 @@ import re
 
 class AddCart:
     # URL
-    
+
     URL = "https://www.reserved.com/ro/ro/balerini-cu-funda-7439l-30x"
 
     ACCEPT_COOKIES_BUTTON = (By.ID, 'cookiebotDialogOkButton')
